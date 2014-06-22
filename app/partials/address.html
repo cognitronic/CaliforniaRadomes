@@ -1,0 +1,79 @@
+<div id="address" class="section">
+    <div class="address_block">
+        <div class="overlay_grid"></div>
+        <div class="parallax_bg" style="background-image: url(vendor/images/temp/slide_2.jpg)"></div>
+        <div class="address_container">
+            <div class="address_content">
+                <div class="contact_details">
+                    <div class="contact_email">
+                        mailbox@prevalence.com
+                    </div>
+                    <div class="contact_phone">
+                        +550 222 700 14 55
+                    </div>
+                    <div class="">
+                        10880 Malibu Point, 90265<br />
+                        United States of America
+                    </div>
+                </div><!--contact_details-->
+            </div><!--address_content-->
+        </div><!--address_container-->
+    </div><!--address_block-->
+    <div class="map_block">
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                function initialize() {
+                    var secheltLoc = new google.maps.LatLng(34.031385,-118.682975);
+                    var myMapOptions = {
+                        center: secheltLoc,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                        zoom: 15,
+                        scrollwheel: false,
+                        mapTypeControl: false,
+                        zoomControl: false,
+                        draggable: false
+                    };
+                    var theMap = new google.maps.Map(document.getElementById("google_map"), myMapOptions);
+                    var image = new google.maps.MarkerImage(
+                            'http://timra.ru/prevalence/images/pinmap.png',
+                            new google.maps.Size(57,57),
+                            new google.maps.Point(0,0),
+                            new google.maps.Point(20,57)
+                    );
+                    var marker = new google.maps.Marker({
+                        map: theMap,
+                        icon: image,
+                        draggable: false,
+                        animation: google.maps.Animation.DROP,
+                        position: secheltLoc,
+                        visible: true
+                    });
+                    var boxText = document.createElement("div");
+                    boxText.innerHTML = '<div class="map_caption">prevalence headquaters</div>';
+                    var myOptions = {
+                        alignBottom: true,
+                        content: boxText,
+                        disableAutoPan: false,
+                        maxWidth: 0,
+                        pixelOffset: new google.maps.Size(-100, -60),
+                        zIndex: null,
+                        boxStyle: {
+                            width: "200px"
+                        },
+                        closeBoxURL: "",
+                        infoBoxClearance: new google.maps.Size(1, 1),
+                        isHidden: false,
+                        pane: "floatPane",
+                        enableEventPropagation: false
+                    };
+                    var ib = new InfoBox(myOptions);
+                    ib.open(theMap, marker);
+                }
+                google.maps.event.addDomListener(window, 'load', initialize);
+            });
+        </script>
+        <div id="google_map">
+
+        </div>
+    </div><!--map_block-->
+</div><!--address-->
