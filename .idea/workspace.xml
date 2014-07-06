@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98ba8f95-0ec6-42b3-a5d7-3471e3a1e64e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CaliforniaRadomes.iws" />
@@ -48,7 +46,7 @@
       <file leaf-file-name="main-service.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/services/main-service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="284" selection-end="284" vertical-scroll-proportion="0.2293578" vertical-offset="0" max-vertical-offset="872">
+            <state line="11" column="9" selection-start="278" selection-end="278" vertical-scroll-proportion="0.20642202" vertical-offset="0" max-vertical-offset="872">
               <folding />
             </state>
           </provider>
@@ -450,12 +448,18 @@
       <created>1402864449661</created>
       <updated>1402864449661</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated logo">
+      <created>1404671635974</created>
+      <updated>1404671635974</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1923" y="1" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -484,6 +488,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="updated logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated logo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -590,7 +596,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/main-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="284" selection-end="284" vertical-scroll-proportion="0.2293578" vertical-offset="0" max-vertical-offset="872">
+        <state line="11" column="9" selection-start="278" selection-end="278" vertical-scroll-proportion="0.20642202" vertical-offset="0" max-vertical-offset="872">
           <folding />
         </state>
       </provider>
