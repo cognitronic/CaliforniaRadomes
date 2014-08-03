@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98ba8f95-0ec6-42b3-a5d7-3471e3a1e64e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/aboutus.html" afterPath="$PROJECT_DIR$/app/partials/aboutus.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/slider.html" afterPath="$PROJECT_DIR$/app/partials/slider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/css/style.css" afterPath="$PROJECT_DIR$/app/vendor/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CaliforniaRadomes.iws" />
@@ -30,23 +31,27 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="43" selection-start="1627" selection-end="1627" vertical-scroll-proportion="-5.793103" vertical-offset="452" max-vertical-offset="2580">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="33" column="7" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="2620">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slider.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="slider.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/slider.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="51" selection-start="5399" selection-end="5399" vertical-scroll-proportion="0.22988506" vertical-offset="0" max-vertical-offset="870">
+            <state line="148" column="51" selection-start="5399" selection-end="5399" vertical-scroll-proportion="0.0" vertical-offset="2960" max-vertical-offset="3740">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aboutus.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/partials/aboutus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="68" selection-start="914" selection-end="914" vertical-scroll-proportion="0.2846975" vertical-offset="0" max-vertical-offset="1120">
               <folding>
-                <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#li#2;tag#ul#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#li#3;tag#ul#0;tag#div#0;tag#div#0" expanded="false" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,7 +60,7 @@
       <file leaf-file-name="main-controller.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/main-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="3" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="260">
+            <state line="9" column="3" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -64,7 +69,7 @@
       <file leaf-file-name="main-service.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/main-service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="3" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="17" column="3" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="460">
               <folding />
             </state>
           </provider>
@@ -73,7 +78,7 @@
       <file leaf-file-name="shared-directive.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/directives/shared-directive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1160">
+            <state line="41" column="0" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="820" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
@@ -82,25 +87,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="7" selection-start="1863" selection-end="1871" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/vendor/angular-ui-router/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/vendor/angular-ui-router/.bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="780">
+            <state line="55" column="7" selection-start="1863" selection-end="1871" vertical-scroll-proportion="0.0" vertical-offset="1100" max-vertical-offset="1220">
               <folding />
             </state>
           </provider>
@@ -109,7 +96,7 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="28" selection-start="52" selection-end="52" vertical-scroll-proportion="-1.3793104" vertical-offset="0" max-vertical-offset="240">
+            <state line="2" column="28" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -118,7 +105,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/vendor/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5054" column="19" selection-start="103772" selection-end="103772" vertical-scroll-proportion="0.0" vertical-offset="100418" max-vertical-offset="101300">
+            <state line="660" column="19" selection-start="18478" selection-end="18478" vertical-scroll-proportion="0.0" vertical-offset="1740" max-vertical-offset="101300">
               <folding />
             </state>
           </provider>
@@ -148,23 +135,24 @@
         <option value="$PROJECT_DIR$/app/directives/services-directive.js" />
         <option value="$PROJECT_DIR$/app/home/slider.html" />
         <option value="$PROJECT_DIR$/app/partials/home.html" />
-        <option value="$PROJECT_DIR$/app/partials/aboutus.html" />
         <option value="$PROJECT_DIR$/app/partials/services.html" />
         <option value="$PROJECT_DIR$/app/partials/team.html" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/directives/shared-directive.js" />
-        <option value="$PROJECT_DIR$/app/vendor/css/style.css" />
         <option value="$PROJECT_DIR$/app/services/main-service.js" />
         <option value="$PROJECT_DIR$/app/controllers/main-controller.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/partials/slider.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/partials/aboutus.html" />
+        <option value="$PROJECT_DIR$/app/vendor/css/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1923" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1040" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -261,7 +249,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular-ui-router" />
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CaliforniaRadomes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CaliforniaRadomes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CaliforniaRadomes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CaliforniaRadomes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,24 +324,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CaliforniaRadomes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CaliforniaRadomes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,9 +411,10 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -401,6 +428,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -409,14 +444,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -464,30 +491,34 @@
       <created>1404671759789</created>
       <updated>1404671759789</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated logo and added pics to slider">
+      <created>1405968386378</created>
+      <updated>1405968386378</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1923" y="0" width="1936" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20277481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20277481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -501,7 +532,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="updated logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated logo" />
+    <MESSAGE value="updated logo and added pics to slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated logo and added pics to slider" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -519,18 +551,9 @@
         <state line="73" column="7" selection-start="1688" selection-end="1895" vertical-scroll-proportion="-20.0" vertical-offset="960" max-vertical-offset="13880" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/aboutus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="372" selection-start="526" selection-end="526" vertical-scroll-proportion="-2.7586207" vertical-offset="0" max-vertical-offset="1060" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="951" selection-end="951" vertical-scroll-proportion="-0.7407407" vertical-offset="320" max-vertical-offset="2600">
-          <folding>
-            <element signature="tag#div#0;tag#div#2;tag#div#0;tag#div#1;tag#div#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="18" column="38" selection-start="951" selection-end="951" vertical-scroll-proportion="-0.7407407" vertical-offset="320" max-vertical-offset="2600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/team.html">
@@ -538,37 +561,19 @@
         <state line="102" column="70" selection-start="4494" selection-end="4494" vertical-scroll-proportion="-26.896551" vertical-offset="1260" max-vertical-offset="4600" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="895">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/vendor/angular-ui-router/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="895">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="895" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/vendor/angular-ui-router/.bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="895">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/vendor/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5054" column="19" selection-start="103772" selection-end="103772" vertical-scroll-proportion="0.0" vertical-offset="101080" max-vertical-offset="101300">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="895" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="52" selection-end="52" vertical-scroll-proportion="-1.3793104" vertical-offset="0" max-vertical-offset="240">
+        <state line="2" column="28" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
@@ -576,13 +581,6 @@
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="7" selection-start="1863" selection-end="1871" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/main-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="3" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
@@ -601,23 +599,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/partials/slider.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="43" selection-start="1627" selection-end="1627" vertical-scroll-proportion="-5.793103" vertical-offset="452" max-vertical-offset="2580">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="148" column="51" selection-start="5399" selection-end="5399" vertical-scroll-proportion="0.0" vertical-offset="2960" max-vertical-offset="3740">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/slider.html">
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="51" selection-start="5399" selection-end="5399" vertical-scroll-proportion="0.22988506" vertical-offset="0" max-vertical-offset="870">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="895" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/main-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="3" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="7" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="2620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vendor/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="660" column="19" selection-start="18478" selection-end="18478" vertical-scroll-proportion="0.0" vertical-offset="1740" max-vertical-offset="101760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/aboutus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="68" selection-start="914" selection-end="914" vertical-scroll-proportion="0.2846975" vertical-offset="0" max-vertical-offset="1120">
           <folding>
-            <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#li#2;tag#ul#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#li#3;tag#ul#0;tag#div#0;tag#div#0" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
