@@ -61,17 +61,17 @@ $(function(){
 	});
 
 	//Slider
-	$('#slider').revolution({
-		delay:9000,
-		startwidth: 1000,
-		startheight: 770,
-		navigationType:'bullet',
-		navigationArrows:'none',
-		touchenabled:'on',
-		fullWidth:'on',
-		fullScreen:'on',
-		shadow:0
-	});
+	// $('#slider').revolution({
+	// 	delay:3000,
+	// 	startwidth: 1000,
+	// 	startheight: 770,
+	// 	navigationType:'bullet',
+	// 	navigationArrows:'none',
+	// 	touchenabled:'on',
+	// 	fullWidth:'on',
+	// 	fullScreen:'on',
+	// 	shadow:0
+	// });
 
 	//Menu anchors
 	$('#menu').on('click', 'a[href^=]', function() {
@@ -146,7 +146,7 @@ $(function(){
 	//Testimonials rotation
 	$('#testimonials .testimonials_carousel ul').cycle({
 		slides: '> li',
-		timeout: 9000,
+		timeout: 1000,
 		speed: 500,
 		log: false
 	});

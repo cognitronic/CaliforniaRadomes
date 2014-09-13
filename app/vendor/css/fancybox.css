@@ -29,7 +29,7 @@
 	color: #444;
 	text-shadow: none;
 	background: #fff url("../images/fancybox/modal_bg.png") 50% 0;
-	border: 10px solid #1ec5f3;
+	border: 10px solid #077BB9;
 }
 
 .scheme_yellow .fancybox-skin {
@@ -128,9 +128,9 @@
 	text-align: center;
 	font-size: 20px;
 	cursor: pointer;
-	color: #00bff3 !important;
+	color: #077BB9 !important;
 	background: #fff;
-	border: 2px solid #00bff3;
+	border: 2px solid #077BB9;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
@@ -213,9 +213,9 @@
 	font-size: 20px;
 	line-height: 36px;
 	text-align: center;
-	color: #00bff3 !important;
+	color: #077BB9 !important;
 	background: #fff;
-	border: 2px solid #00bff3;
+	border: 2px solid #077BB9;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;

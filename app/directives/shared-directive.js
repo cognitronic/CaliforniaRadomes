@@ -19,12 +19,12 @@ app.directive('crHighlightContainer', function(){
 app.directive('crMainSlider', function(){
     function link (scope, element, attr){
         element.revolution({
-            delay:9000,
+            delay:5000,
             startwidth: 1000,
             startheight: 770,
             navigationType:'bullet',
             navigationArrows:'none',
-            touchenabled:'on',
+            touchenabled:'off',
             fullWidth:'on',
             fullScreen:'on',
             shadow:0

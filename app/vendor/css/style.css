@@ -657,13 +657,12 @@ p {
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 68px;
 	line-height: 68px;
 	font-weight: 600;
 	text-align: center;
-	color: #04A0F3;
+	color: #077BB9;
 	text-transform: uppercase;
-	border-bottom: 4px solid #04A0F3;
+	border-bottom: 4px solid #077BB9;
 	background: #000;
 }
 
@@ -901,6 +900,12 @@ p {
 	padding: 88px 0 71px 0;
 	background: #fff;
 }
+.sectionabout {
+	position: relative;
+	width: 100%;
+	padding: 0px 0 0px 0;
+	background: #fff;
+}
 
 .section.fixed {
 	width: 950px;
@@ -936,6 +941,17 @@ p {
 	font-weight: 800;
 	font-size: 60px;
 	line-height: 1;
+	text-transform: uppercase;
+	color: #000;
+	border: 0 solid #077BB9;
+}
+.section_title .big2 {
+	position: relative;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: .3;
 	text-transform: uppercase;
 	color: #000;
 	border: 0 solid #077BB9;
@@ -1233,7 +1249,7 @@ p {
 	position: relative;
 	overflow: hidden;
 	width: 100%;
-	background: #000;
+	background: #FFF;
 }
 
 #portfolio:after {
@@ -1717,6 +1733,7 @@ p {
 
 #portfolio .grid_projects li .project_overlay .project_title {
 	margin-bottom: 5px;
+	margin-top: 25px;
 	font-size: 24px;
 	line-height: normal;
 	font-weight: bold;
@@ -2061,8 +2078,9 @@ p {
 #services .services .column .service_icon .icon_bg {
 	position: absolute;
 	z-index: 0;
-	left: -10px;
-	top: -10px;
+	margin: 0 auto;
+	text-align: center;
+	top: -1px;
 	width: 100%;
 	height: 100%;
 	border: 10px solid #e4eaf2;
@@ -2119,6 +2137,8 @@ p {
 	top: 0;
 	width: 100%;
 	height: 100%;
+	text-align: center;
+	margin: 0 auto 17px auto;
 	background: url("../images/pattern_overlay.png") 50% 0;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -3291,7 +3311,7 @@ p {
 	background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.12) 100%);
 	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.12) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#1f000000',GradientType=0 );
-	background-color: #04A0F3;
+	background-color: #077BB9;
 }
 
 .scheme_yellow #footer {
@@ -5057,4 +5077,16 @@ blockquote.quote:before {
 .copyrights a:hover{
     text-decoration: underline;
     color: #ffffff;
+}
+figure#burnsbox { 
+	overflow: hidden; 
+	position: relative;
+	padding-top: 60%; 
+}
+figure#burnsbox img { 
+	position: absolute;
+	top: 0; 
+	left:-5%; 
+	width: 110%; 
+	height: 110%; 
 }
