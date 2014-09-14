@@ -114,7 +114,7 @@ input, select, textarea, button {
 
 /* General settings for form elements */
 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="url"], input[type="number"], input[type="search"], textarea, select {
-	padding: 0 13px;
+	padding: 0 33px;
 	border: 2px solid #e1e1e1;
 	background: #fff;
 }

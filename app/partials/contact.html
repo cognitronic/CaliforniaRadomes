@@ -5,26 +5,31 @@
         <div class="text">Should you have any questions or requests, don't hesitate to send us a quick message. When in the San Francisco area please ask about having our business meeting aboard "The Other Office" on the San Francisco bay.</div>
     </div>
     <div class="container">
+        <div ng-show="model.successMessage" style="text-align: center; margin-bottom: 25px;">
+            <div>
+                <h2><b>{{ model.successMessage }}</b></h2>
+            </div>
+        </div>
         <div class="contact_form">
-            <form action="#" method="post" id="contact_form" class="form">
+            <form id="contact_form" name="contact_form" class="form">
                 <ul>
                     <li>
                         <div class="input_addon">
                             <i class="highlight fa fa-user"></i>
                         </div>
-                        <input type="text" name="name" placeholder="Your name" class="w240" />
+                        <input type="text" ng-model="model.name" required name="name" placeholder="Your name" class="w240" />
                     </li>
                     <li>
                         <div class="input_addon">
                             <i class="highlight fa fa-envelope-o"></i>
                         </div>
-                        <input type="text" name="email" placeholder="E-mail" class="w240" />
+                        <input ng-model="model.email" name="email"  type="email" placeholder="E-mail" class="w240" required />
                     </li>
                     <li>
-                        <textarea name="message" rows="1" cols="1" placeholder="Type your message here" class="w570 h190"></textarea>
+                        <textarea name="message" rows="1" required cols="1" ng-model="model.message" placeholder="Type your message here" class="w570 h190"></textarea>
                     </li>
                 </ul>
-                <input type="submit" value="send message" class="submit" />
+                <button ng-disabled="!contact_form.email.$valid || !contact_form.name.$valid || !contact_form.message.$valid" value="send message" ng-click="model.send(model.name, model.email, model.message)" class="submit">Send Message</button>
             </form>
         </div><!--contact_form-->
     </div><!--container-->
